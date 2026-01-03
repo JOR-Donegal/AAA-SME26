@@ -30,6 +30,7 @@ I can install all of these using
 ```
 Get-WindowsUpdate -AcceptAll -Install -AutoReboot
 ```
+Shut down the VM and document it.
 
 ## Build a Core instance
 Go through the normal installation dialog but select __Windows Server 2025 Standard __
@@ -38,4 +39,12 @@ Go through the normal installation dialog but select __Windows Server 2025 Stand
 <img src = "https://jor-donegal.github.io/AAA-SME/images/fig1.jpg">
 <figcaption>Fig 1. Install options.</figcaption>
 </figure>
+
+1. On reboot, you will be required to set an administrator password.
+2. You may then be asked some stndard questions.
+3. SConfig will then load, which will allow you to do the initial configuration. 
+4. Change the time zone and make sure the time is correct. 
+5. Do updates (all quality updates) and reboot.
+6. Shut down the VM and document it.
+
 
