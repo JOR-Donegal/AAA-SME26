@@ -23,7 +23,7 @@ Get-NetIPAddress
 For me, if was InterfaceIndex 4
 
 <figure>
-<img src = "https://jor-donegal.github.io/AAA-SME/images/fig2.jpg">
+<img src = "https://jor-donegal.github.io/AAA-SME26/images/fig2.jpg">
 <figcaption>Fig 2. Get-NetIPAddress.</figcaption>
 </figure>
 

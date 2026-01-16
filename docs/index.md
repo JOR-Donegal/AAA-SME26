@@ -2,11 +2,11 @@
 
 !!! abstract "AAA for an SME"
 
-On any Greenfield site my starting point would be to build the core services. In almost every case these will be built around Active Directory. Beware Microsoft is trying to push customers in the direction of their public cloud, Azure. Note that anything I do using Microsoft technology, I could replaicate, license free, using Linux.
+On any Greenfield site my starting point would be to build the core services. In almost every case these will be built around Active Directory. Beware Microsoft is trying to push customers in the direction of their public cloud, Azure. Note that anything I do using Microsoft technology, I could replicate, license free, using Linux.
 
 I am trying to achieve authentication, authorization and accounting (AAA). By far and ahead the most common solution for this in Ireland will be Microsoft's Active Directory (AD).
 
-In these exercises I am going work my way through from my first questions to my customer, to a good working prototype which can be deployed in a private cloud environment. I'm going to start with a table of data that I need my client to populate with the minimal information I need to set up the systems.
+In these exercises I am going work my way through from my first questions to my customer, to a good working prototype which can be deployed in a private cloud environment. Note that I will take a similar approach in Public Cloud. I'm going to start with a table of data that I need my client to populate with the minimal information I need to set up the systems.
 
 | Requirement      | Data                |
 | ---------------- | ------------------- |

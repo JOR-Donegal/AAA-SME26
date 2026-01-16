@@ -39,7 +39,7 @@ Shut down the VM and document it.
 Go through the normal installation dialog but select __Windows Server 2025 Standard__
 
 <figure>
-<img src = "https://jor-donegal.github.io/AAA-SME/images/fig1.jpg">
+<img src = "https://jor-donegal.github.io/AAA-SME26/images/fig1.jpg">
 <figcaption>Fig 1. Install options.</figcaption>
 </figure>
 
