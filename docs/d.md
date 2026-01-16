@@ -86,6 +86,9 @@ Add-DnsServerPrimaryZone -NetworkId 10.0.2.0/24 -ReplicationScope Domain
 Add-DnsServerPrimaryZone -NetworkId 10.0.5.0/24 -ReplicationScope Domain
 Add-DnsServerPrimaryZone -NetworkId 10.0.6.0/24 -ReplicationScope Domain
 ```
+## Functional test
+From the command prompt, do an __nslookup__ against this server, for both forward and reverse lookup zones.
+
 
 ## Finally
 Loads done!
