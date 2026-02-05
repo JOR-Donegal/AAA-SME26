@@ -72,6 +72,8 @@ Then we can set up individual scopes and any options that are particular to that
 Add-DhcpServerv4Scope -name "Clients" -StartRange 10.0.5.100 -EndRange 10.0.5.199 -SubnetMask 255.255.255.0 -State Active
 Add-DhcpServerv4ExclusionRange -ScopeID 10.0.5.0 -StartRange 10.0.5.0 -EndRange 10.0.5.99
 ```
+### Exercise
+Set up the server LAN (VLAN6, 10.0.6.0/24) in an appropriate manner, we will need it later.
 
 ## Verify and configure DNS
 Verify that DNS was installed by default. Check and verify as you go along, using the Server Manager plugin for DNS.
