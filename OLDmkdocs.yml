@@ -1,4 +1,4 @@
-site_name: AAA for an SME
+site_name: AAA-SME
 site_url: https://example.com
 theme:
   name: material
@@ -13,10 +13,20 @@ theme:
     - content.code.copy
   
   palette:
-      # Light Mode
-    - scheme: default
+    # Darm Mode
+    - scheme: slate
       primary: green
       accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      # Light Mode
+    - scheme: default
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
 markdown_extensions:
   - pymdownx.highlight:
